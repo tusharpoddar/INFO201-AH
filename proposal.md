@@ -17,9 +17,22 @@ Autumn 2019
   <RQ #1 text>  
   <RQ #2 text>
 
+ Include name, short description [30-60 words], link, and number of observations and number of attributes.
+
 #### 3.0 Possible data sets  
-  <Data set #1 text>  
-  <Data set #2 text>
+  **Data Set 1**  
+  *Name:* Seattle Police Department 911 Incident Response  
+  *Link:* https://www.kaggle.com/sohier/seattle-police-department-911-incident-response  
+  *Number of Observations:* 1.4 million responses from 2009 onward  
+  *Number of Attributes:* 19 different attributes  
+  *Description:* This dataset is a record of all the police responses to 911 calls made in Seattle, Washington. This study looks at the incident location and type. This data will be used to see where there is a large amount of criminal activity in the Seattle region.
+
+  **Data Set 2**   
+  *Name:* Seattle Airbnb Open data  
+  *Link:* https://www.kaggle.com/airbnb/seattle/  
+  *Number of Observations:* Over 1 million observations  
+  *Number of Attributes:* 92 different attributes  
+  *Description:* This dataset is a record of Airbnb activity in the Seattle region. The dataset includes information on listings, the score of the listing, reviews, location, price, listing id, etc. This data will be used to see popular locations in Seattle for Airbnb houses.
 
 #### 4.0 Information Visualizations
   <Brief introduction to the two info visualizations. Below are examples.
