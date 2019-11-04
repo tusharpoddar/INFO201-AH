@@ -1,5 +1,4 @@
-## How Seattle crime rates affect a user's decision to book an Airbnb
-### Project: (code name)   
+## How Seattle Crime Rates Affect a User's Decision to Book an Airbnb
 Allison J Bennett, Nick M Hebert, Tushar Poddar, Mariella Gauvreau
 
 Info-201: Technical Foundations of Informatics  
@@ -8,10 +7,17 @@ University of Washington
 Autumn 2019
 
 #### 1.0 Introduction   
-  **1.1** Problem Situation. <text>  
-  **1.2** What is the problem? <text>  
-  **1.3** What does it matter? <text>  
-  **1.4** How it will be addressed? <text>
+  **1.1** Problem Situation.  
+  Airbnb currently has over 150 million users worldwide, many of them booking in metropolitan areas like New York, Washington D.C, and Seattle. Every person booking through Airbnb wants to make the most of their vacation by finding a place to stay that meets all of their preferences and financial needs. Sometimes this means finding a place to stay with an optimal location to tourist attractions. This comes with safety risks in largely populated areas. It is important for users to know all of these safety risks when booking to ensure the quality of customer care given by Airbnb.  
+
+  **1.2** What is the problem?  
+  Airbnb users need to be informed of the crime rates in the locations in which they are looking to stay. They are susceptible to choosing a place to stay that is filled with crime without this information which may lead them to unforeseen danger. Because crime rates are higher in big cities, especially in areas where many tourist attractions are located, this becomes particularly relevant to Airbnb users.  
+
+  **1.3** Why does it matter?  
+  The growth of Airbnb since the company has first launched is astounding. As more people book with Airbnb, they should be able to compare listings based on as much information as possible. The quality of someone experience when booking with Airbnb is determined by their entire vacation, not just by their experience with booking. A vacation can turn unsafe if a person and their family are faced with crime. There is an ethical responsibility for these individuals to be as informed as possible about this possible crime so that they can be better prepared when staying  
+
+  **1.4** How it will be addressed?  
+  This problem will be addressed by creating a hub of information about Airbnb listings. At first, this will only include listings in Seattle and what the crime rates are in that particular information. We will potentially include some other information about the listing’s location, like the proximity to popular attractions. This will allow users of Airbnb to have as much information as possible when booking so that they can weigh their options about which listing to book, potentially keeping them out of harms way on their travels.
 
 #### 2.0 Research Questions   
   <RQ #1 text>  
@@ -45,9 +51,20 @@ This plot shows the number of Airbnbs in Seattle by neighborhood. Our goal is to
 ![airbnb_plot](pics/airbnb_plot.png)
 
 #### 5.0 Team Coordination  
-  <see project proposal element>
+(a) Our group has found time on Sunday to meet for 2 hours. We will be changing the time on a week-to-week basis so that we can accommodate for everyone's schedules.  
+(b) Individual Goals:  
+  - Allison's Goals: I would like to become more confident in working with large data sets and learn how to better represent the information that is pulled from them.  
+  - Nick's Goals:
+  - Tushar's Goals:
+  - Mariella's Goals:   
+
+(c) We will communicate weekly through slack and a group on Teams, both of which have already been created.  
+(d) In order to give each other feedback on the work we will be doing, we will be allotting a portion of the time during our Sunday meetings to reviewing our work so far and making goals to help our group become more efficient and effective.
+
 
 #### 6.0 Questions for Teaching Team
-  <if you have questions, please include them here>
+  No current questions for the teaching team.
 
-#### 7.0 References  
+#### 7.0 References
+https://muchneeded.com/airbnb-statistics/  
+https://ipropertymanagement.com/airbnb-statistics/
