@@ -22,9 +22,7 @@ Autumn 2019
 
 #### 2.0 Research Questions   
   <RQ #1 text>  
-  <RQ #2 text>
-
- Include name, short description [30-60 words], link, and number of observations and number of attributes.
+  <RQ #2 text>  
 
 #### 3.0 Possible data sets  
   **Data Set 1**  
