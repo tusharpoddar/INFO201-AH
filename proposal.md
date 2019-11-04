@@ -35,14 +35,14 @@ Autumn 2019
   *Description:* This dataset is a record of Airbnb activity in the Seattle region. The dataset includes information on listings, the score of the listing, reviews, location, price, listing id, etc. This data will be used to see popular locations in Seattle for Airbnb houses.
 
 #### 4.0 Information Visualizations
-  <Brief introduction to the two info visualizations. Below are examples.
-  Notes: (a) Images should always include a detailed caption; (b) Images do not need to be side-by-side>
 
 #### Figure 1.
-Ex: This graphic shows the “beauty” of each county in the U.S. In our project, we propose to create a similar information visualization and allow users to explore county level details. (Source: USDA) [1]
+This visualization demonstrates the amount of crime that occurs in the Seattle area. We would like to make this easier to view up close and look at specific neighborhoods.
+![wash_plot](pics/wash_plot.png)
 
 #### Figure 2.
-Ex: This interactive graphic allows the user to hover over a county and get details on demand. In our project, we would like to implement something similar. (Source: New York Times) [2]
+This plot shows the number of Airbnbs in Seattle by neighborhood. Our goal is to make this graph easier to read and add some color or other visual elements to make it easier to interpret.
+![airbnb_plot](pics/airbnb_plot.png)
 
 #### 5.0 Team Coordination  
   <see project proposal element>
