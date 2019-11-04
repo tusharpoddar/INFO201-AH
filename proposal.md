@@ -1,5 +1,6 @@
 ## How Seattle Crime Rates Affect a User's Decision to Book an Airbnb
-Allison J Bennett, Nick M Hebert, Tushar Poddar, Mariella Gauvreau
+Allison J Bennett, Nick M Hebert, Tushar Poddar, Mariella Gauvreau   
+Project: Airbnb Locations vs. Crime Rates
 
 Info-201: Technical Foundations of Informatics  
 The Information School  
