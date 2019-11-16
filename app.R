@@ -4,6 +4,7 @@ intro_page <- tabPanel(
     "Introduction",
     h1("How Seattle Crime Rates Affect Your Decision To Book An Airbnb"),
     fluidPage(
+        # Server is handling the button actions
         actionButton('nselect', "Select Neighborhood"),
         actionButton('cselect', "View Crime Rates"),
         actionButton('rselect', "View Airbnb Ratings")
@@ -16,6 +17,7 @@ about_us <- tabPanel(
     fluidPage(
         h1("Allison Bennet, Nick Hebert, Tushar Poddar, Mariella Gauvreau"),
         br,
+    
         h2("Allison"),
         p("photo"),
         p("description"),
@@ -50,17 +52,29 @@ findings <- tabPanel(
     "Findings",
     
 )
+
+# ------------- These Tabs contain the Visuals and important stuff -------------
+
 neighborhood <- tabPanel(
     "Select by Neighborhood",
-    value = 'neighborhood'
+    value = 'neighborhood',
+    fluidPage(            
+        p("test")
+    ) #end of splitLayout
 )
 crime_rates <- tabPanel(
     "Select by Crime Rates",
-    value = 'crime_rates'
+    value = 'crime_rates',
+    fluidPage(            
+        p("test")
+    ) #end of splitLayout
 )
 ratings <- tabPanel(
     "Select by Rating",
-    value = 'ratings'
+    value = 'ratings',
+    fluidPage(
+        p("test")
+    ) #end of splitLayout
 )
 
 # Define UI ----
@@ -78,6 +92,8 @@ ui <- navbarPage(
 )
 
 # Define server logic ----
+
+
 server <- function(input, output, session) {
     observeEvent(eventExpr = input$nselect, {
         updateTabsetPanel(session, 'toptabs', selected = 'neighborhood')
