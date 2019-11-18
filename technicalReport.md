@@ -59,12 +59,16 @@ This plot shows the number of Airbnbs in Seattle by neighborhood. Our goal is to
 (3) The future work that you or someone else might pursue
 
 #### Acknowledgements
+(1) Acknowledge anyone who made a substantial contribution to your project
 
 #### References
 https://muchneeded.com/airbnb-statistics/
 https://ipropertymanagement.com/airbnb-statistics/
 
 #### Appendix 1: Data Dictionary  
+Variable Name | Description | Data Type | Measurement Type  
+--- | --- | --- | ---
+Test | Test | Test | Test
 
 #### Appendix 2: Reflections  
 (1) each team member should write a personal reflection on the project (around 150 words)
