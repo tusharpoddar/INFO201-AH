@@ -1,7 +1,6 @@
-#Crime Rate and Airbnb
+#Airbnb Locations vs. Crime Rates
 ## How Seattle Crime Rates Affect a User's Decision to Book an Airbnb
 Allison J Bennett, Nick M Hebert, Tushar Poddar, Mariella Gauvreau
-Project: Airbnb Locations vs. Crime Rates
 
 Info-201: Technical Foundations of Informatics
 The Information School
@@ -27,7 +26,7 @@ Autumn 2019
   **Research Question 2**
   Is there less crime activity is locations with more Airbnb houses on the market?
 
-#### 3.0 The data sets
+#### 3.0 The data sets ****KEEP UPDATING***
   **Data Set 1**
   *Name:* Seattle Police Department 911 Incident Response
   *Link:* https://www.kaggle.com/sohier/seattle-police-department-911-incident-response
@@ -42,7 +41,7 @@ Autumn 2019
   *Number of Attributes:* 92 different attributes
   *Description:* This dataset is a record of Airbnb activity in the Seattle region. The dataset includes information on listings, the score of the listing, reviews, location, price, listing id, etc. This data will be used to see popular locations in Seattle for Airbnb houses.
 
-#### 4.0 Information Visualizations
+#### 4.0 Information Visualizations *****KEEP UPDATING****
 
 #### Figure 1.
 This visualization demonstrates the amount of crime that occurs in the Seattle area. We would like to make this easier to view up close and look at specific neighborhoods.
@@ -52,21 +51,27 @@ This visualization demonstrates the amount of crime that occurs in the Seattle a
 This plot shows the number of Airbnbs in Seattle by neighborhood. Our goal is to make this graph easier to read and add some color or other visual elements to make it easier to interpret.
 ![airbnb_plot](pics/airbnb_plot.png)
 
-#### 5.0 Team Coordination
-(a) Our group has found time on Sunday to meet for 2 hours. We will be changing the time on a week-to-week basis so that we can accommodate for everyone's schedules.
-(b) Goals:
-  - We would like to become more confident in working with large data sets and learn how to better represent the information that is pulled from them.
-  - We would like to learn how to best display our data so that it is easy to read by someone who does not know much about data analysis.
+#### 5.0 Technical description of Shiny application  
 
-  We have not discussed individual roles yet, right now we are working together on all aspects of the project to see what we enjoy most.
+#### 6.0 Conclusion  
+(1) Strengths and weaknesses of the project  
+(2) The main lessons that you learned
+(3) The future work that you or someone else might pursue
 
-(c) We will communicate weekly through slack and a group on Teams, both of which have already been created.
-(d) In order to give each other feedback on the work we will be doing, we will be allotting a portion of the time during our Sunday meetings to reviewing our work so far and making goals to help our group become more efficient and effective.
+#### Acknowledgements
 
-
-#### 6.0 Questions for Teaching Team
-  No current questions for the teaching team.
-
-#### 7.0 References
+#### References
 https://muchneeded.com/airbnb-statistics/
 https://ipropertymanagement.com/airbnb-statistics/
+
+#### Appendix 1: Data Dictionary  
+
+#### Appendix 2: Reflections  
+(1) each team member should write a personal reflection on the project (around 150 words)
+- what you learned
+- what you found satisfying/frustrating
+- what you would do differently in the future
+- how the project positioned you developed your identity for coder, thinker, innovator, etc.
+
+#### Appendix 3: Use of Envisioning Cards  
+(1) Include a brief description of how you used the envisioning cards
