@@ -26,7 +26,7 @@ Autumn 2019
   **Research Question 2**  
   Is there less crime activity is locations with more Airbnb houses on the market?
 
-#### 3.0 The data sets ****KEEP UPDATING***
+#### 3.0 The data sets  
   **Data Set 1**
   *Name:* Seattle Police Department 911 Incident Response  
   *Link:* https://www.kaggle.com/sohier/seattle-police-department-911-incident-response  
@@ -41,7 +41,7 @@ Autumn 2019
   *Number of Attributes:* 92 different attributes  
   *Description:* This dataset is a record of Airbnb activity in the Seattle region. The dataset includes information on listings, the score of the listing, reviews, location, price, listing id, etc. This data will be used to see popular locations in Seattle for Airbnb houses.
 
-#### 4.0 Information Visualizations *****KEEP UPDATING****
+#### 4.0 Information Visualizations  
 
 #### Figure 1.
 This visualization demonstrates the amount of crime that occurs in the Seattle area. We would like to make this easier to view up close and look at specific neighborhoods.
