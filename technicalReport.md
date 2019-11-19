@@ -56,7 +56,7 @@ We have created our Shiny application with the framework of a Navigation panel o
 
 #### 6.0 Conclusion  
 (1) Strengths and weaknesses of the project  
-(2) The main lessons that you learned
+(2) The main lessons that you learned  
 (3) The future work that you or someone else might pursue
 
 #### Acknowledgements
@@ -70,10 +70,13 @@ https://ipropertymanagement.com/airbnb-statistics/
 Variable Name | Description | Data Type | Measurement Type  
 --- | --- | --- | ---
 **Data Set:** Seattle Police Department 911 Incident Response
-Incident Location | This variable provides the longitude and latitude coordinates of the incident  | Quantitative/Numerical Data | Interval
+Incident Location | This variable describes the longitude and latitude coordinates of the incident  | Quantitative/Numerical Data | Interval
+Initial Type Description | This variable describes the type of incident that was reported from a 911 call | Qualitative/Categorical data | Ordinal
 **Data Set:** Seattle Airbnb Open data
-Latitude | | |
-longitude | | |
+latitude | This variable describes the latitude of the Airbnb house | Quantitative/Numerical Data | Interval
+longitude | This variable describes the longitude of the Airbnb house | Quantitative/Numerical Data | Interval
+available | This variable describes whether or not the Airbnb house is available to rent or if it is currently occupied | Qualitative/Categorical data | Dichotomous
+listing_id | This variable describes 'listing' (Airbnb house) as a numerical value | Quantitative/Numerical Data | Interval
 
 #### Appendix 2: Reflections  
 (1) each team member should write a personal reflection on the project (around 150 words)
