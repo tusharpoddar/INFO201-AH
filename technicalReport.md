@@ -78,5 +78,7 @@ Test | Test | Test | Test
 - what you would do differently in the future
 - how the project positioned you developed your identity for coder, thinker, innovator, etc.
 
+Mariella's Reflection: From this projects
+
 #### Appendix 3: Use of Envisioning Cards  
-(1) Include a brief description of how you used the envisioning cards
+One of the envisioning cards we decided to focus on was 'Widespread Use'. This card says that a person's use of technology may be impacted by how, when, and where other people are using it. The success of our application is impacted by how often people are using Airbnb to book houses. Those who are using Airbnb will find our application to be very helpful. Those who are not using Airbnb, will not find our application as useful. In this day and age, it is important to understand how people are using other technology and how frequently. Since booking houses online has become very popular, we assumed that our application will be a success. It is important to think about other technologies around you and how users are responding to those when creating your own application.
