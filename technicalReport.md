@@ -1,4 +1,4 @@
-# Airbnb Locations vs. Crime Rates
+# Seattle Safe Airbnb
 ## How Seattle Crime Rates Affect a User's Decision to Book an Airbnb
 Allison J Bennett, Nick M Hebert, Tushar Poddar, Mariella Gauvreau
 
@@ -55,12 +55,16 @@ This plot shows the number of Airbnbs in Seattle by neighborhood. Our goal is to
 We have created our Shiny application with the framework of a Navigation panel on the left hand side and Visualizations/Data/Descriptions on the right hand side. The data is in the form of .csv has been loaded into RStudio using the read.csv() function. The major libraries used were: dplyr, maps, mapproj, leaflet, shiny, tidyr, ggplot2. We organized our code by creating an app.R file and defining the ui and server sections within the same document. We are attempting to determine the safest locations for people to book Airbnbs in Seattle.
 
 #### 6.0 Conclusion  
+One of the weaknesses wit your
 (1) Strengths and weaknesses of the project  
 (2) The main lessons that you learned  
 (3) The future work that you or someone else might pursue
 
+*still working on crime but have airbnb in the database and in our shiny application*
+*we have not uploaded the cvs files because they are bigger than 300 mb so we have provided the links so users can go online and download the csvs to use the shiny application*  
+
 #### Acknowledgements
-(1) Acknowledge anyone who made a substantial contribution to your project
+Yash was very helpful. He helped us fix problems we ran into with our Shiny application and he helped us
 
 #### References
 https://muchneeded.com/airbnb-statistics/  
@@ -79,13 +83,10 @@ available | This variable describes whether or not the Airbnb house is available
 listing_id | This variable describes 'listing' (Airbnb house) as a numerical value | Quantitative/Numerical Data | Interval
 
 #### Appendix 2: Reflections  
-(1) each team member should write a personal reflection on the project (around 150 words)
-- what you learned
-- what you found satisfying/frustrating
-- what you would do differently in the future
-- how the project positioned you developed your identity for coder, thinker, innovator, etc.
-
-Mariella's Reflection: From this projects
+**Allison's Reflection:** This project helped me learn a lot about working as a team, specifically when using GitHub. Making sure communication is clear and watching out for merge errors and new commits is vital to making the team work. I was kind of frustrated with figuring out how to incorporate multiple data sets into one visualization. It was also difficult to look at and make sense of another person’s code. In the future, I would probably spend a little more time working on the design, but we will be able to improve that with the final deliverable. This project helped me develop my identity as an Innovator and Thinker as I worked with the problem and why it mattered and outlined the way we could represent our data. I am hoping to develop my Coder identity more in the last part of this project.  
+**Mariella's Reflection:** From this project, I learned about how to divide up a project and work together as a team. I learned that  
+**Nick's Reflection:** I learned how to create a basic Shiny application and implement R code into the application. I found the action buttons to be extremely confusing at first, and it took me a while to understand how they worked and how to assign a function to them in the server section of the app.R file. I found it satisfying that Shiny makes it easy to create the UI in a clean manor. It is also easy to create something basic very quickly. In the future, I’ll probably research the easiest or best ways to create a Shiny application, instead of just looking at the functions and comparing the way the change the UI. This project has made me do the big think on how to code, and how to a client-side UI interacts with a server.  
+**Tushar's Reflection:**  
 
 #### Appendix 3: Use of Envisioning Cards  
 One of the envisioning cards we decided to focus on was 'Widespread Use'. This card says that a person's use of technology may be impacted by how, when, and where other people are using it. The success of our application is impacted by how often people are using Airbnb to book houses. Those who are using Airbnb will find our application to be very helpful. Those who are not using Airbnb, will not find our application as useful. In this day and age, it is important to understand how people are using other technology and how frequently. Since booking houses online has become very popular, we assumed that our application will be a success. It is important to think about other technologies around you and how users are responding to those when creating your own application.
