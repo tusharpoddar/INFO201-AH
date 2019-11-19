@@ -52,6 +52,7 @@ This plot shows the number of Airbnbs in Seattle by neighborhood. Our goal is to
 ![airbnb_plot](pics/airbnb_plot.png)
 
 #### 5.0 Technical description of Shiny application  
+We have created our Shiny application with the framework of a Navigation panel on the left hand side and Visualizations/Data/Descriptions on the right hand side. The data is in the form of .csv has been loaded into RStudio using the read.csv() function. The major libraries used were: dplyr, maps, mapproj, leaflet, shiny, tidyr, ggplot2. We organized our code by creating an app.R file and defining the ui and server sections within the same document. We are attempting to determine the safest locations for people to book Airbnbs in Seattle.
 
 #### 6.0 Conclusion  
 (1) Strengths and weaknesses of the project  
