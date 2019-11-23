@@ -6,3 +6,6 @@ In this group project, we will be exploring data sets about Airbnb and crime rat
 
 - **P1: Project Proposal** - https://github.com/tusharpoddar/INFO201-AH-2/blob/master/proposal.md
 - **P2: Technical Report** - https://github.com/tusharpoddar/INFO201-AH-2/blob/master/technicalReport.md
+
+
+### Link to minimal working shiny app - https://info-201-ah-2.shinyapps.io/INFO201-AH-2/
