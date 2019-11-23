@@ -35,7 +35,7 @@ server <- function(input, output, session) {
              property_type == input$property_type_input)
     m <- leaflet() %>%
       addTiles() %>%
-      setView(lng = -122.349358, lat = 47.620422, zoom = 10.5) %>% 
+      setView(lng = -122.349358, lat = 47.620422, zoom = 11.25) %>% 
       addCircleMarkers(lng = df$longitude,
                  lat = df$latitude,
                  radius = 0,
