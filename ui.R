@@ -5,9 +5,10 @@ library(shinydashboard)
 library(rgdal)
 library(DT)
 library(shinythemes)
+library(shinyWidgets)
 
 df <- read.csv("listings.csv", stringsAsFactors = FALSE)
-
+crime_df <-read.csv('crime_data.csv')
 seattle_data <- df %>% 
   select(name, # this is the name of the airBNB
          neighbourhood, # area in which the airBnB is present 
@@ -46,7 +47,8 @@ ui <- fluidPage(
                        0, 500,
                        value = c(0, 500),
                        sep = "",
-                       step = 1)
+                       step = 1),
+           switchInput('showcrime', label = 'Show Crime', value = FALSE)
          ),
          # code to display the map and the table that we get from the server output
          mainPanel(

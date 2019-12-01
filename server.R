@@ -4,6 +4,7 @@ library(leaflet)
 library(shinydashboard)
 library(rgdal)
 library(DT)
+library(shinyWidgets)
 
 df <- read.csv("listings.csv", stringsAsFactors = FALSE)
 seattle_data <- df %>% 
@@ -40,7 +41,20 @@ server <- function(input, output, session) {
                  lat = df$latitude,
                  radius = 0,
                  popup = paste("Average price:", df$price, "<br>",
-                               "Minimum nights:", df$minimum_nights, "<br>"))
+                               "Minimum nights:", df$minimum_nights, "<br>")) 
+    
+      # check to see if showcrime toggle is on
+      if (input$showcrime) {
+        m %>% addCircleMarkers(lng = crime_df$Longitude,
+                         lat = crime_df$Latitude,
+                         radius = 0,
+                         popup = paste(crime_df$Event.Clearance.Group, "<br>",
+                                       crime_df$Event.Clearance.Date),
+                         color = 'red')
+      } else {
+        m
+      } #end of crime toggle
+      
     
   })
   
