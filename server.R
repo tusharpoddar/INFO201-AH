@@ -5,6 +5,7 @@ library(shinydashboard)
 library(rgdal)
 library(DT)
 library(shinyWidgets)
+crime_df <-read.csv('crime_data.csv')
 
 df <- read.csv("listings.csv", stringsAsFactors = FALSE)
 seattle_data <- df %>% 
