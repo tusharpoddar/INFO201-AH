@@ -12,8 +12,6 @@ seattle_data <- df %>%
   select(name, # this is the name of the airBNB
          neighbourhood, # area in which the airBnB is present 
          street, # exact address
-         latitude, # latitude
-         longitude, # longitude
          maximum_nights,# max night limit
          minimum_nights, # min nights limit
          accommodates, # accupancy of?
@@ -35,6 +33,25 @@ server <- function(input, output, session) {
              minimum_nights >= input$minimum_nights_input[1],
              minimum_nights <= input$minimum_nights_input[2],
              property_type == input$property_type_input)
+    
+    # making the new dataframe
+    new_latitude <- mean(df$latitude)
+    new_longitude <- mean(df$longitude)
+    
+    max_lat <- max(df$latitude) - mean(df$latitude)
+    max_long <- max(df$longitude) - mean(df$longitude)
+    min_lat <- mean(df$latitude) - min(df$latitude)
+    min_long <- mean(df$longitude) - min(df$longitude)
+    
+    extra_lat <- 0.005
+    extra_long <- 0.01
+    
+    new_df <- crime_df %>%
+      filter(crime_df$Latitude >= new_latitude - min_lat - extra_lat
+             & crime_df$Latitude <= new_latitude +  max_lat + extra_lat, 
+             crime_df$Longitude >= new_longitude - min_long - extra_long
+             & crime_df$Longitude <= new_longitude + max_long + extra_long)
+    
     m <- leaflet() %>%
       addTiles() %>%
       setView(lng = -122.349358, lat = 47.620422, zoom = 11.25) %>% 
@@ -46,11 +63,11 @@ server <- function(input, output, session) {
     
       # check to see if showcrime toggle is on
       if (input$showcrime) {
-        m %>% addCircleMarkers(lng = crime_df$Longitude,
-                         lat = crime_df$Latitude,
+        m %>% addCircleMarkers(lng = new_df$Longitude,
+                         lat = new_df$Latitude,
                          radius = 0,
-                         popup = paste(crime_df$Event.Clearance.Group, "<br>",
-                                       crime_df$Event.Clearance.Date),
+                         popup = paste(new_df$Event.Clearance.Group, "<br>",
+                                       new_df$Event.Clearance.Date),
                          color = 'red')
       } else {
         m
@@ -69,3 +86,4 @@ server <- function(input, output, session) {
                                   seattle_data$minimum_nights <= input$minimum_nights_input[2])
   })
 }
+
