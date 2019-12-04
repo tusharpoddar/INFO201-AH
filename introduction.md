@@ -16,11 +16,11 @@
 
   **Research Question 1**
 
-  Are people less likely to book an Airbnb if there is high crime activity in the location of the house?
+  Which crimes are most prevalent in counties in Seattle?
 
   **Research Question 2**
-  
-  Is there less crime activity is locations with more Airbnb houses on the market?
+
+  Is there less crime activity in locations with more Airbnb houses on the market?
 
 ## The data sets
   **Data Set 1**

@@ -83,7 +83,9 @@ ui <- fluidPage(
                                    popup = paste(homi_df$Event.Clearance.Group, "<br>",
                                                  homi_df$Event.Clearance.Date),
                                    color = 'blue'),
-                p('Red = Burglary   /   Yellow = Robbery   /   Blue = Homicide')
+                p('Red = Burglary   /   Yellow = Robbery   /   Blue = Homicide'),
+                h2("Number of Airbnbs by Neighborhood"),
+                plotOutput(outputId = "airbnb_graph")
                 ), 
        tabPanel(h5("Conclusions"), includeMarkdown("conclusions.md"))
   )
