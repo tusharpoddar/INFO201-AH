@@ -5,9 +5,12 @@ library(shinydashboard)
 library(rgdal)
 library(DT)
 library(shinyWidgets)
+library(ggplot2)
+
 crime_df <-read.csv('crime_data.csv')
 
 df <- read.csv("listings.csv", stringsAsFactors = FALSE)
+neighborhoods_df <- as.data.frame(table(df$neighbourhood_group_cleansed))
 seattle_data <- df %>% 
   select(name, # this is the name of the airBNB
          neighbourhood, # area in which the airBnB is present 
@@ -77,13 +80,25 @@ server <- function(input, output, session) {
   })
   
   output$seattle_data <- renderTable({
-    neighbourhoodFilter <- filter(seattle_data,
+    neighborhood_filter <- filter(seattle_data,
                                   seattle_data$neighbourhood == input$neighbourhood_input,
                                   price >= paste("$", input$price_input[1], sep=""),
                                   price <= paste("$", input$price_input[2], sep=""),
                                   seattle_data$property_type == input$property_type_input,
                                   seattle_data$minimum_nights >= input$minimum_nights_input[1],
                                   seattle_data$minimum_nights <= input$minimum_nights_input[2])
+    colnames(neighborhood_filter) <- c("Name", "Neighborhood", "Street", "Max Nights", "Min Nights", 
+                         "Accommodates", "Price", "Property Type")
+    return(neighborhood_filter)
+  })
+  
+  output$airbnb_graph <- renderPlot({
+    airbnb_numbers <- ggplot(data = neighborhoods_df,
+                             aes(x = neighborhoods_df$Var1, y = neighborhoods_df$Freq)) + 
+                             geom_bar(stat = 'identity', fill = "darkblue") + 
+                             theme(axis.text.x = element_text(angle = 60, hjust = 1)) + 
+                             labs(x = 'Neighborhood', y = 'Count')
+    return(airbnb_numbers)
   })
 }
 
