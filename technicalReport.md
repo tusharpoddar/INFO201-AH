@@ -22,9 +22,10 @@ Autumn 2019
 
 #### 2.0 Research Questions
   **Research Question 1**  
-  Are people less likely to book an Airbnb if there is high crime activity in the location of the house?  
+  Which crimes are most prevalent in counties in Seattle?
+
   **Research Question 2**  
-  Is there less crime activity is locations with more Airbnb houses on the market?
+  Is there less crime activity in locations with more Airbnb houses on the market?
 
 #### 3.0 The data sets  
   **Data Set 1**
@@ -44,19 +45,21 @@ Autumn 2019
 #### 4.0 Information Visualizations  
 
 #### Figure 1.
-This visualization demonstrates the amount of crime that occurs in the Seattle area. We would like to make this easier to view up close and look at specific neighborhoods.
-![wash_plot](pics/wash_plot.png)
+This visualization demonstrates which crimes are most prevalent in the Seattle region. Our goal is to make it easy to see where the most burglary, robbery and homicide crimes happen in the Seattle region.
+![wash_plot](pics/burglaryVis.PNG)
 
 #### Figure 2.
-This plot shows the number of Airbnbs in Seattle by neighborhood. Our goal is to make this graph easier to read and add some color or other visual elements to make it easier to interpret.
-![airbnb_plot](pics/airbnb_plot.png)
+This plot shows the number of Airbnbs in Seattle by neighborhood. Our goal is to make this graph easy to read when finding out where the most popular Airbnb locations are in Seattle neighborhoods.
+![airbnb_plot](pics/AirbnbsNeighborhoodVis.PNG)
 
 #### 5.0 Technical description of Shiny application  
 We have created our Shiny application with the framework of a Navigation panel on the left hand side and Visualizations/Data/Descriptions on the right hand side. The data is in the form of .csv has been loaded into RStudio using the read.csv() function. The major libraries used were: dplyr, rgdal, DT, leaflet, shiny, shinydashboard. We organized our code by creating a ui.R file and a server.R file, defining the ui and server sections in different documents. We are attempting to determine the safest locations for people to book Airbnbs in Seattle.
 
 #### 6.0 Conclusion  
-Our shiny application is an interactive map that allows users to select a range of home prices and see the location of homes in that area. The project we created has many strengths. It is easy to use and visually appealing to users looking to learn more about Airbnbs in Seattle. There are also some things we wish to improve on our shiny application. Currently, our application takes the Airbnb data set and displays Airbnb houses on our interactive map based on some user input. Since this is the "first" submission of our shiny application, for our final project submission, we plan on including the Seattle Police Department 911 Incident Report data set. Including this data will allow users to not only see Airbnbs in Seattle but also crime rate in that area as well. Future implications of this project can be looking at Airbnb and crime rates in other parts of the country, not just Seattle.  
-The main lesson learned from this project is that there is lots of data around us. It is our job to find this data and give meaning to it.
+Our shiny application is an interactive map that allows users to select a range of home prices and see the location of homes in that area. This data will allow users to not only see Airbnbs in Seattle but also crime rate in that area as well. Future implications of this project can be looking at Airbnb and crime rates in other parts of the country, not just Seattle.   
+Our first research question focused on finding out what crimes are most prevalent in Seattle. Through our analysis, we came to the conclusion that burglary, robbery, and homicide are the three most common crimes in the Seattle region. There were burglaries all over Seattle but middle and south is where the most homicides were. Robberies were all over the surrounding areas. With this information, users will be able to make a more educated decision about where to get an Airbnb. Users can decide if they'd rather live in a region with high burglary rates or high homicide rates.  
+Our second research question focuses on whether or not there was less crime activity in locations with more Airbnb houses on the market. We found that in general, Capitol Hill and downtown Seattle had the most Airbnb houses on the market. The crime rates in those areas are not as low as neighborhoods like Tukwila and Lake Forest Park. This could be because tourists are the main Airbnb users and they are less interested in the crime rates and more interested in going to the more popular parts of Seattle, like downtown and Capitol Hill.  
+The main lesson learned from this project is that there is lots of data around us. It is our job to find this data and give meaning to it.  
 A note about our project. GitHub would not allow us to upload our CSV files for our datasets because they are over 300 MB. We have provided the links. You must 'click' on the link and download the CSV file before running our shiny application.  
 
 #### Acknowledgements
